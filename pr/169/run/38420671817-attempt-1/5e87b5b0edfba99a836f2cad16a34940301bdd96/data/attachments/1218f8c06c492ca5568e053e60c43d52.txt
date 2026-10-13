@@ -1,0 +1,1 @@
+{"bridgePid":9376,"browserPid":3040,"versions":{"cloakbrowser":"0.6.2","playwrightMcp":"0.0.83","freeChromium":"146.0.7680.177.5"},"stderr":""}
