@@ -1,0 +1,1 @@
+{"bridgePid":7012,"browserPid":7228,"stderr":"","extension":"controlled content script","executable":"D:\\a\\_temp\\free-browser-cache\\chromium-146.0.7680.177.5\\chrome.exe"}
