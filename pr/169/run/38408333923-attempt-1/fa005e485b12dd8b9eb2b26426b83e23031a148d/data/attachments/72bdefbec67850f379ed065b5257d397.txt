@@ -1,0 +1,1 @@
+{"cycle":0,"mode":"successful shutdown","browserPid":2998,"upstreamPid":2986,"cdpPort":37931,"generation":1}
