@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> CloakBrowser MCP tests – Pull request #169 </title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg width='32' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M22.232 4.662a3.6 3.6 0 0 1 5.09.035c2.855 2.894 4.662 6.885 4.662 11.295a3.6 3.6 0 0 1-7.2 0c0-2.406-.981-4.61-2.587-6.24a3.6 3.6 0 0 1 .035-5.09Z' fill='url(%23a)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.392 3.6a3.6 3.6 0 0 1 3.6-3.6c4.41 0 8.401 1.807 11.296 4.662a3.6 3.6 0 1 1-5.056 5.126C20.602 8.18 18.398 7.2 15.992 7.2a3.6 3.6 0 0 1-3.6-3.6Z' fill='url(%23b)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 15.992C0 7.157 7.157 0 15.992 0a3.6 3.6 0 0 1 0 7.2A8.789 8.789 0 0 0 7.2 15.992c0 2.406.981 4.61 2.588 6.24a3.6 3.6 0 0 1-5.126 5.056C1.807 24.393 0 20.402 0 15.992Z' fill='url(%23c)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.661 22.232a3.6 3.6 0 0 1 5.091-.035c1.63 1.606 3.834 2.587 6.24 2.587a3.6 3.6 0 0 1 0 7.2c-4.41 0-8.401-1.807-11.295-4.661a3.6 3.6 0 0 1-.036-5.091Z' fill='url(%23d)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M28.384 12.392a3.6 3.6 0 0 1 3.6 3.6c0 8.835-7.157 15.992-15.992 15.992a3.6 3.6 0 0 1 0-7.2 8.789 8.789 0 0 0 8.792-8.792 3.6 3.6 0 0 1 3.6-3.6Z' fill='url(%23e)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M28.385 12.392a3.6 3.6 0 0 1 3.6 3.6v12.392a3.6 3.6 0 0 1-7.2 0V15.992a3.6 3.6 0 0 1 3.6-3.6Z' fill='url(%23f)'/%3E%3Cg clip-path='url(%23g)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M22.232 4.662a3.6 3.6 0 0 1 5.091.035c2.855 2.894 4.662 6.885 4.662 11.295a3.6 3.6 0 0 1-7.2 0c0-2.406-.982-4.61-2.588-6.24a3.6 3.6 0 0 1 .035-5.09Z' fill='url(%23h)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='a' x1='26.4' y1='9.6' x2='28.8' y2='15' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%237E22CE'/%3E%3Cstop offset='1' stop-color='%238B5CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='26.8' y1='9.4' x2='17.8' y2='3.6' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23EF4444'/%3E%3Cstop offset='1' stop-color='%23DC2626'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' x1='3.6' y1='14' x2='5.4' y2='24.8' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2322C55E'/%3E%3Cstop offset='1' stop-color='%2315803D'/%3E%3C/linearGradient%3E%3ClinearGradient id='d' x1='4.8' y1='22.2' x2='14.4' y2='29.2' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2394A3B8'/%3E%3Cstop offset='.958' stop-color='%2364748B'/%3E%3Cstop offset='1' stop-color='%2364748B'/%3E%3C/linearGradient%3E%3ClinearGradient id='e' x1='28.4' y1='22.173' x2='22.188' y2='28.384' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23D97706'/%3E%3Cstop offset='1' stop-color='%23FBBF24'/%3E%3C/linearGradient%3E%3ClinearGradient id='f' x1='29.2' y1='54.4' x2='30.626' y2='54.256' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FBBF24'/%3E%3Cstop offset='1' stop-color='%23FBBF24'/%3E%3C/linearGradient%3E%3ClinearGradient id='h' x1='26.4' y1='9.6' x2='28.8' y2='15' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%237E22CE'/%3E%3Cstop offset='1' stop-color='%238B5CF6'/%3E%3C/linearGradient%3E%3CclipPath id='g'%3E%3Cpath fill='%23fff' transform='translate(24.8 12)' d='M0 0h7.2v8H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E">
+    
+  <style>
+    .allure-app-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 2147483647;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      background: #f7f8fb;
+      color: #22252a;
+      font: 14px/20px Arial, Helvetica, sans-serif;
+    }
+
+    .allure-app-loader__spinner {
+      width: 24px;
+      height: 24px;
+      border: 2px solid rgba(34, 37, 42, 0.16);
+      border-bottom-color: #3d7eff;
+      border-radius: 50%;
+      animation: allure-app-loader-spin 0.7s linear infinite;
+    }
+
+    .allure-app-loader__logo {
+      width: 40px;
+      height: 40px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .allure-app-loader {
+        background: #1c1c1e;
+        color: #e5e5e7;
+      }
+
+      .allure-app-loader__spinner {
+        border-color: rgba(229, 229, 231, 0.2);
+        border-bottom-color: #8ab4ff;
+      }
+    }
+
+    @keyframes allure-app-loader-spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+    
+    <script>
+      window.allureReportOptions = {"id":"awesome","reportName":"CloakBrowser MCP tests – Pull request #169","logo":"","theme":"auto","reportLanguage":"en","createdAt":1791891697226,"reportUuid":"2175f5f6-faee-4d37-92c8-09f00e7d8344","groupBy":["feature","level","os","lane"],"cacheKey":"1791891697226","ci":{"type":"github","detected":true,"repoName":"cloakbrowser-mcp","jobUid":"swimmwatch/cloakbrowser-mcp_CI","jobUrl":"https://github.com/swimmwatch/cloakbrowser-mcp/actions?query=workflow%3A%22CI%22","jobName":"swimmwatch/cloakbrowser-mcp - CI","jobRunUid":"38390682248","jobRunUrl":"https://github.com/swimmwatch/cloakbrowser-mcp/actions/runs/38390682248","jobRunName":"publish #298","jobRunBranch":"release/v1.15.0","pullRequestUrl":"https://github.com/swimmwatch/cloakbrowser-mcp/pull/169","pullRequestName":"Pull request #169","provider":"github","repository":{"slug":"swimmwatch/cloakbrowser-mcp","url":"https://github.com/swimmwatch/cloakbrowser-mcp"},"sourceBranch":"release/v1.15.0","targetBranch":"main","pullRequest":{"id":"169","url":"https://github.com/swimmwatch/cloakbrowser-mcp/pull/169","title":"Pull request #169"}},"runSummary":{"start":0,"stop":1791891466950,"duration":1791891466950},"runSummaryByEnv":{"env-d53d6823f510a33ad978b1e0":{"start":1791891422259,"stop":1791891466950,"duration":44691},"env-bdc3a579b23e765bf851786e":{"start":1791891055205,"stop":1791891125165,"duration":69960},"env-2a8653f3aef9d9db28caca17":{"start":1791891183720,"stop":1791891235929,"duration":52209},"env-eb20f40a59787e17994a6fe3":{"start":1791891131384,"stop":1791891197009,"duration":65625},"env-5eb8a6b3264626ee29d3b9e3":{"start":1791891356476,"stop":1791891431147,"duration":74671},"env-f96a49b8465f5227240732a6":{"start":1791891103969,"stop":1791891201387,"duration":97418},"env-7d97675571eb5d1c716de91c":{"start":1791891050073,"stop":1791891115321,"duration":65248},"env-2d913e16dd3cff22869a60f3":{"start":1791891254119,"stop":1791891319754,"duration":65635},"env-f115a94a73ac399b5e1943d0":{"start":1791891183508,"stop":1791891247788,"duration":64280},"env-902712dd29d67c6a0f279a9a":{"start":1791891140005,"stop":1791891211459,"duration":71454},"env-7ffd001598c853d6e8dd0189":{"start":1791891126471,"stop":1791891202305,"duration":75834},"env-819b7ae63ac22e42aa353e18":{"start":1791891257815,"stop":1791891394319,"duration":136504},"env-2dcf70952fe83c08f71270b2":{"start":1791891096455,"stop":1791891161204,"duration":64749},"env-7031fabca96c152ff0b21301":{"start":1791891150707,"stop":1791891181166,"duration":30459},"env-60762cab8ef2c8ed2fbd8ed2":{"start":1791891163209,"stop":1791891242892,"duration":79683},"env-9d79a5d52ebc9ce54d6eb7a8":{"start":1791891056687,"stop":1791891097718,"duration":41031},"env-8d9e0a1cad629c8c66406c2b":{"start":1791891083583,"stop":1791891152615,"duration":69032},"env-88d0dd4da8354c5b9fb75037":{"start":1791891262785,"stop":1791891332510,"duration":69725},"env-829ef7c5ef3933d66e7d9ef6":{"start":1791891132607,"stop":1791891197037,"duration":64430},"env-dd107e6f822a91c7cf37b870":{"start":1791891302727,"stop":1791891420540,"duration":117813},"env-0db52ade73ed6625f659c580":{"start":1791891255882,"stop":1791891335116,"duration":79234},"env-8623237c38708ae031a44311":{"start":1791891251224,"stop":1791891302142,"duration":50918},"env-17f2eff86aa10cb0a2b6ccea":{"start":1791891094132,"stop":1791891134461,"duration":40329},"env-54b19793be7f700953d9cd42":{"start":1791891336213,"stop":1791891338881,"duration":2668},"env-b1d5d0ca496e386535c87f03":{"start":1791891091389,"stop":1791891128001,"duration":36612},"env-0d7a81d18145e47ae592fa6a":{"start":1791891187833,"stop":1791891262829,"duration":74996},"env-6b35f23559e2db408c13aa95":{"start":0,"stop":0,"duration":0},"env-97097ca69454d290cc2cf864":{"start":1791891127967,"stop":1791891198510,"duration":70543},"env-476691c92d9abd4b757b1cd9":{"start":1791891354839,"stop":1791891430132,"duration":75293},"env-a6677ed9607121d751ad1a1a":{"start":1791891340333,"stop":1791891342996,"duration":2663},"env-604c70fe70e507a99c3954f9":{"start":1791891067451,"stop":1791891105134,"duration":37683},"env-366b20f335556d0ee9a474cb":{"start":1791891121008,"stop":1791891131004,"duration":9996},"env-fefb3a1bf7f65bb05c0eda56":{"start":1791891431025,"stop":1791891433329,"duration":2304},"env-0ec769dabadff120e3f63b48":{"start":1791891434531,"stop":1791891436818,"duration":2287},"env-2bc436f5ec3ed1ab46425c12":{"start":1791891084953,"stop":1791891100754,"duration":15801},"env-33b28d4ea7d29608dce197d0":{"start":1791891131774,"stop":1791891144822,"duration":13048},"env-121b8235298e2bfff5d61791":{"start":1791891068672,"stop":1791891076870,"duration":8198},"env-b45ff4a382fb51f2ab42ce4c":{"start":1791891064230,"stop":1791891071999,"duration":7769}},"layout":"base","allureVersion":"3.20.1","sections":["charts","timeline"],"defaultSection":""}
+    </script>
+</head>
+<body>
+    
+    <div id="allure-app-loader" class="allure-app-loader" role="status" aria-label="Loading report" aria-live="polite">
+      <svg class="allure-app-loader__logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M22.232 4.662a3.6 3.6 0 0 1 5.09.035c2.855 2.894 4.662 6.885 4.662 11.295a3.6 3.6 0 0 1-7.2 0c0-2.406-.981-4.61-2.587-6.24a3.6 3.6 0 0 1 .035-5.09Z" fill="url(#allure-loader-a)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12.392 3.6a3.6 3.6 0 0 1 3.6-3.6c4.41 0 8.401 1.807 11.296 4.662a3.6 3.6 0 1 1-5.056 5.126C20.602 8.18 18.398 7.2 15.992 7.2a3.6 3.6 0 0 1-3.6-3.6Z" fill="url(#allure-loader-b)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0 15.992C0 7.157 7.157 0 15.992 0a3.6 3.6 0 0 1 0 7.2A8.789 8.789 0 0 0 7.2 15.992c0 2.406.981 4.61 2.588 6.24a3.6 3.6 0 0 1-5.126 5.056C1.807 24.393 0 20.402 0 15.992Z" fill="url(#allure-loader-c)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.661 22.232a3.6 3.6 0 0 1 5.091-.035c1.63 1.606 3.834 2.587 6.24 2.587a3.6 3.6 0 0 1 0 7.2c-4.41 0-8.401-1.807-11.295-4.661a3.6 3.6 0 0 1-.036-5.091Z" fill="url(#allure-loader-d)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M28.384 12.392a3.6 3.6 0 0 1 3.6 3.6c0 8.835-7.157 15.992-15.992 15.992a3.6 3.6 0 0 1 0-7.2 8.789 8.789 0 0 0 8.792-8.792 3.6 3.6 0 0 1 3.6-3.6Z" fill="url(#allure-loader-e)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M28.385 12.392a3.6 3.6 0 0 1 3.6 3.6v12.392a3.6 3.6 0 0 1-7.2 0V15.992a3.6 3.6 0 0 1 3.6-3.6Z" fill="url(#allure-loader-f)"/><g clip-path="url(#allure-loader-g)"><path fill-rule="evenodd" clip-rule="evenodd" d="M22.232 4.662a3.6 3.6 0 0 1 5.091.035c2.855 2.894 4.662 6.885 4.662 11.295a3.6 3.6 0 0 1-7.2 0c0-2.406-.982-4.61-2.588-6.24a3.6 3.6 0 0 1 .035-5.09Z" fill="url(#allure-loader-h)"/></g><defs><linearGradient id="allure-loader-a" x1="26.4" y1="9.6" x2="28.8" y2="15" gradientUnits="userSpaceOnUse"><stop stop-color="#7E22CE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient><linearGradient id="allure-loader-b" x1="26.8" y1="9.4" x2="17.8" y2="3.6" gradientUnits="userSpaceOnUse"><stop stop-color="#EF4444"/><stop offset="1" stop-color="#DC2626"/></linearGradient><linearGradient id="allure-loader-c" x1="3.6" y1="14" x2="5.4" y2="24.8" gradientUnits="userSpaceOnUse"><stop stop-color="#22C55E"/><stop offset="1" stop-color="#15803D"/></linearGradient><linearGradient id="allure-loader-d" x1="4.8" y1="22.2" x2="14.4" y2="29.2" gradientUnits="userSpaceOnUse"><stop stop-color="#94A3B8"/><stop offset=".958" stop-color="#64748B"/><stop offset="1" stop-color="#64748B"/></linearGradient><linearGradient id="allure-loader-e" x1="28.4" y1="22.173" x2="22.188" y2="28.384" gradientUnits="userSpaceOnUse"><stop stop-color="#D97706"/><stop offset="1" stop-color="#FBBF24"/></linearGradient><linearGradient id="allure-loader-f" x1="29.2" y1="54.4" x2="30.626" y2="54.256" gradientUnits="userSpaceOnUse"><stop stop-color="#FBBF24"/><stop offset="1" stop-color="#FBBF24"/></linearGradient><linearGradient id="allure-loader-h" x1="26.4" y1="9.6" x2="28.8" y2="15" gradientUnits="userSpaceOnUse"><stop stop-color="#7E22CE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient><clipPath id="allure-loader-g"><path fill="#fff" transform="translate(24.8 12)" d="M0 0h7.2v8H0z"/></clipPath></defs></svg>
+      <div class="allure-app-loader__spinner" aria-hidden="true"></div>
+    </div>
+  
+    <div id="app"></div>
+    
+    <script>
+      const { origin, pathname } = window.location; 
+      const url = new URL(pathname, origin);
+      const baseEl = document.createElement("base");
+      
+      baseEl.href = url.toString();
+      
+      window.document.head.appendChild(baseEl);
+    </script>
+  
+    <script>
+      window.allure = window.allure || {};
+    </script>
+    <script   src="app-37f09cbd4e17b2e88575.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNDJ3J7WT0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LNDJ3J7WT0', {
+          "report": "awesome",
+          "allureVersion": "3.20.1",
+          "reportUuid": "2175f5f6-faee-4d37-92c8-09f00e7d8344",
+          "single_file": "false"
+        });
+    </script>
+    
+      <script async>
+        window.allureReportDataReady = true;
+      </script>
+    
+</body>
+</html>
