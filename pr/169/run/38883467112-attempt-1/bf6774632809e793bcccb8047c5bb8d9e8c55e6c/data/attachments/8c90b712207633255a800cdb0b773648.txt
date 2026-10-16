@@ -1,0 +1,1 @@
+{"cycle":3,"mode":"upstream failure","browserPid":2697,"upstreamPid":2696,"cdpPort":49376,"generation":1}
