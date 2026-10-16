@@ -1,0 +1,1 @@
+{"bridgePid":4201,"cleanupObservedBrowserPid":4225,"versions":{"cloakbrowser":"0.6.3","playwrightMcp":"0.0.83","freeChromium":"146.0.7680.177.3"},"stderr":""}
