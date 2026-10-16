@@ -1,0 +1,1 @@
+{"bridgePid":null,"cleanupObservedBrowserPid":null,"versions":{"cloakbrowser":"0.6.3","playwrightMcp":"0.0.83","freeChromium":"146.0.7680.177.3"},"stderr":"[cloakbrowser] GeoIP: no locale for country null (IP 192.0.2.1), using en-US\nfatal: GeoIP resolution failed: could not determine timezone\n"}
