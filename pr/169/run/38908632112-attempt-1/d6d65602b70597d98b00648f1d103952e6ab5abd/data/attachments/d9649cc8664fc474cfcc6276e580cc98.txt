@@ -1,0 +1,1 @@
+{"bridgePid":1616,"stderr":"","extension":"official 0.4.0","executable":"D:\\a\\_temp\\free-browser-cache\\chromium-146.0.7680.177.5\\chrome.exe"}
