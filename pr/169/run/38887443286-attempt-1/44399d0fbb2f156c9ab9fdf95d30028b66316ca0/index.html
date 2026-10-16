@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> CloakBrowser MCP tests – Pull request #169 </title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg width='32' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M22.232 4.662a3.6 3.6 0 0 1 5.09.035c2.855 2.894 4.662 6.885 4.662 11.295a3.6 3.6 0 0 1-7.2 0c0-2.406-.981-4.61-2.587-6.24a3.6 3.6 0 0 1 .035-5.09Z' fill='url(%23a)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.392 3.6a3.6 3.6 0 0 1 3.6-3.6c4.41 0 8.401 1.807 11.296 4.662a3.6 3.6 0 1 1-5.056 5.126C20.602 8.18 18.398 7.2 15.992 7.2a3.6 3.6 0 0 1-3.6-3.6Z' fill='url(%23b)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 15.992C0 7.157 7.157 0 15.992 0a3.6 3.6 0 0 1 0 7.2A8.789 8.789 0 0 0 7.2 15.992c0 2.406.981 4.61 2.588 6.24a3.6 3.6 0 0 1-5.126 5.056C1.807 24.393 0 20.402 0 15.992Z' fill='url(%23c)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.661 22.232a3.6 3.6 0 0 1 5.091-.035c1.63 1.606 3.834 2.587 6.24 2.587a3.6 3.6 0 0 1 0 7.2c-4.41 0-8.401-1.807-11.295-4.661a3.6 3.6 0 0 1-.036-5.091Z' fill='url(%23d)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M28.384 12.392a3.6 3.6 0 0 1 3.6 3.6c0 8.835-7.157 15.992-15.992 15.992a3.6 3.6 0 0 1 0-7.2 8.789 8.789 0 0 0 8.792-8.792 3.6 3.6 0 0 1 3.6-3.6Z' fill='url(%23e)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M28.385 12.392a3.6 3.6 0 0 1 3.6 3.6v12.392a3.6 3.6 0 0 1-7.2 0V15.992a3.6 3.6 0 0 1 3.6-3.6Z' fill='url(%23f)'/%3E%3Cg clip-path='url(%23g)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M22.232 4.662a3.6 3.6 0 0 1 5.091.035c2.855 2.894 4.662 6.885 4.662 11.295a3.6 3.6 0 0 1-7.2 0c0-2.406-.982-4.61-2.588-6.24a3.6 3.6 0 0 1 .035-5.09Z' fill='url(%23h)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='a' x1='26.4' y1='9.6' x2='28.8' y2='15' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%237E22CE'/%3E%3Cstop offset='1' stop-color='%238B5CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='26.8' y1='9.4' x2='17.8' y2='3.6' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23EF4444'/%3E%3Cstop offset='1' stop-color='%23DC2626'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' x1='3.6' y1='14' x2='5.4' y2='24.8' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2322C55E'/%3E%3Cstop offset='1' stop-color='%2315803D'/%3E%3C/linearGradient%3E%3ClinearGradient id='d' x1='4.8' y1='22.2' x2='14.4' y2='29.2' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2394A3B8'/%3E%3Cstop offset='.958' stop-color='%2364748B'/%3E%3Cstop offset='1' stop-color='%2364748B'/%3E%3C/linearGradient%3E%3ClinearGradient id='e' x1='28.4' y1='22.173' x2='22.188' y2='28.384' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23D97706'/%3E%3Cstop offset='1' stop-color='%23FBBF24'/%3E%3C/linearGradient%3E%3ClinearGradient id='f' x1='29.2' y1='54.4' x2='30.626' y2='54.256' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FBBF24'/%3E%3Cstop offset='1' stop-color='%23FBBF24'/%3E%3C/linearGradient%3E%3ClinearGradient id='h' x1='26.4' y1='9.6' x2='28.8' y2='15' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%237E22CE'/%3E%3Cstop offset='1' stop-color='%238B5CF6'/%3E%3C/linearGradient%3E%3CclipPath id='g'%3E%3Cpath fill='%23fff' transform='translate(24.8 12)' d='M0 0h7.2v8H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E">
+    
+  <style>
+    .allure-app-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 2147483647;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      background: #f7f8fb;
+      color: #22252a;
+      font: 14px/20px Arial, Helvetica, sans-serif;
+    }
+
+    .allure-app-loader__spinner {
+      width: 24px;
+      height: 24px;
+      border: 2px solid rgba(34, 37, 42, 0.16);
+      border-bottom-color: #3d7eff;
+      border-radius: 50%;
+      animation: allure-app-loader-spin 0.7s linear infinite;
+    }
+
+    .allure-app-loader__logo {
+      width: 40px;
+      height: 40px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .allure-app-loader {
+        background: #1c1c1e;
+        color: #e5e5e7;
+      }
+
+      .allure-app-loader__spinner {
+        border-color: rgba(229, 229, 231, 0.2);
+        border-bottom-color: #8ab4ff;
+      }
+    }
+
+    @keyframes allure-app-loader-spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+    
+    <script>
+      window.allureReportOptions = {"id":"awesome","reportName":"CloakBrowser MCP tests – Pull request #169","logo":"","theme":"auto","reportLanguage":"en","createdAt":1792147519098,"reportUuid":"f315a23a-8eb9-430e-84d7-8463eb92121e","groupBy":["feature","level","os","lane"],"cacheKey":"1792147519098","ci":{"type":"github","detected":true,"repoName":"cloakbrowser-mcp","jobUid":"swimmwatch/cloakbrowser-mcp_CI","jobUrl":"https://github.com/swimmwatch/cloakbrowser-mcp/actions?query=workflow%3A%22CI%22","jobName":"swimmwatch/cloakbrowser-mcp - CI","jobRunUid":"38887443286","jobRunUrl":"https://github.com/swimmwatch/cloakbrowser-mcp/actions/runs/38887443286","jobRunName":"publish #309","jobRunBranch":"release/v1.15.0","pullRequestUrl":"https://github.com/swimmwatch/cloakbrowser-mcp/pull/169","pullRequestName":"Pull request #169","provider":"github","repository":{"slug":"swimmwatch/cloakbrowser-mcp","url":"https://github.com/swimmwatch/cloakbrowser-mcp"},"sourceBranch":"release/v1.15.0","targetBranch":"main","pullRequest":{"id":"169","url":"https://github.com/swimmwatch/cloakbrowser-mcp/pull/169","title":"Pull request #169"}},"runSummary":{"start":1792146536622,"stop":1792147379674,"duration":843052},"runSummaryByEnv":{"env-2d913e16dd3cff22869a60f3":{"start":1792146754746,"stop":1792146817722,"duration":62976},"env-902712dd29d67c6a0f279a9a":{"start":1792146727121,"stop":1792146802980,"duration":75859},"env-f115a94a73ac399b5e1943d0":{"start":1792146718096,"stop":1792146782080,"duration":63984},"env-eb20f40a59787e17994a6fe3":{"start":1792146650675,"stop":1792146714123,"duration":63448},"env-829ef7c5ef3933d66e7d9ef6":{"start":1792146686813,"stop":1792146750578,"duration":63765},"env-bdc3a579b23e765bf851786e":{"start":1792146536622,"stop":1792146604796,"duration":68174},"env-819b7ae63ac22e42aa353e18":{"start":1792146583736,"stop":1792146704737,"duration":121001},"env-7ffd001598c853d6e8dd0189":{"start":1792146681605,"stop":1792146744417,"duration":62812},"env-5eb8a6b3264626ee29d3b9e3":{"start":1792146568739,"stop":1792146655852,"duration":87113},"env-f96a49b8465f5227240732a6":{"start":1792146569896,"stop":1792146685749,"duration":115853},"env-7d97675571eb5d1c716de91c":{"start":1792146630552,"stop":1792146693984,"duration":63432},"env-8d9e0a1cad629c8c66406c2b":{"start":1792146630812,"stop":1792146701133,"duration":70321},"env-2a8653f3aef9d9db28caca17":{"start":1792146584438,"stop":1792146647990,"duration":63552},"env-2dcf70952fe83c08f71270b2":{"start":1792146753269,"stop":1792146821549,"duration":68280},"env-9d79a5d52ebc9ce54d6eb7a8":{"start":1792146612362,"stop":1792146654329,"duration":41967},"env-d53d6823f510a33ad978b1e0":{"start":1792146734694,"stop":1792146777249,"duration":42555},"env-88d0dd4da8354c5b9fb75037":{"start":1792147105763,"stop":1792147175895,"duration":70132},"env-dd107e6f822a91c7cf37b870":{"start":1792147072513,"stop":1792147158169,"duration":85656},"env-7031fabca96c152ff0b21301":{"start":1792146730586,"stop":1792146761885,"duration":31299},"env-60762cab8ef2c8ed2fbd8ed2":{"start":1792146571644,"stop":1792146643515,"duration":71871},"env-35ce413347beecc23316e9a0":{"start":1792146772964,"stop":1792146864029,"duration":91065},"env-fefb3a1bf7f65bb05c0eda56":{"start":1792146739886,"stop":1792146742617,"duration":2731},"env-476691c92d9abd4b757b1cd9":{"start":1792146676139,"stop":1792146738839,"duration":62700},"env-692f7b9c9180ac0fc1dcd788":{"start":1792146772025,"stop":1792146810006,"duration":37981},"env-17f2eff86aa10cb0a2b6ccea":{"start":1792146700735,"stop":1792146726712,"duration":25977},"env-7e339bc6662a94d563673f08":{"start":1792146923560,"stop":1792147272325,"duration":348765},"env-604c70fe70e507a99c3954f9":{"start":1792146548092,"stop":1792146571008,"duration":22916},"env-f0e184fafa4f48691391bb40":{"start":1792146559123,"stop":1792146702885,"duration":143762},"env-0d7a81d18145e47ae592fa6a":{"start":1792146914491,"stop":1792147001257,"duration":86766},"env-8a972f2d29d2400194992f5f":{"start":1792146870582,"stop":1792147130718,"duration":260136},"env-8623237c38708ae031a44311":{"start":1792146655775,"stop":1792146696385,"duration":40610},"env-562188d09050a4b01d7452fb":{"start":1792146566220,"stop":1792147137241,"duration":571021},"env-f4268e592d1031c5e8994ba7":{"start":1792146706961,"stop":1792146801412,"duration":94451},"env-4818eae59d690cdf7f9e8bb4":{"start":1792146748338,"stop":1792146962851,"duration":214513},"env-302953beff2e74d26c114fb8":{"start":1792146989836,"stop":1792147052777,"duration":62941},"env-b1d5d0ca496e386535c87f03":{"start":1792146596929,"stop":1792146619777,"duration":22848},"env-0db52ade73ed6625f659c580":{"start":1792146658810,"stop":1792146722427,"duration":63617},"env-f12333ae25e77f77b56f5122":{"start":1792146639689,"stop":1792146695296,"duration":55607},"env-97097ca69454d290cc2cf864":{"start":1792146591578,"stop":1792146652456,"duration":60878},"env-3db32fffe99f1216df061f17":{"start":1792146784403,"stop":1792146835172,"duration":50769},"env-ca0d7adbe594b862c4820b71":{"start":1792146546516,"stop":1792146768890,"duration":222374},"env-e4171959b6fba1788de76695":{"start":1792147237600,"stop":1792147379674,"duration":142074},"env-7243fa06669368212787fec5":{"start":1792146699942,"stop":1792146738560,"duration":38618},"env-7c2c3a4c65554d4983315e27":{"start":1792146707090,"stop":1792146742870,"duration":35780},"env-9b139a4e1b2456eb993a82c1":{"start":1792147177498,"stop":1792147237672,"duration":60174},"env-121b8235298e2bfff5d61791":{"start":1792146680693,"stop":1792146683220,"duration":2527},"env-26796793ac7fbd57991df843":{"start":1792146747878,"stop":1792146782788,"duration":34910},"env-37adf69b851794c5d9bc5da7":{"start":1792146546264,"stop":1792146624915,"duration":78651},"env-0ec769dabadff120e3f63b48":{"start":1792146743976,"stop":1792146746600,"duration":2624},"env-a6677ed9607121d751ad1a1a":{"start":1792146727613,"stop":1792146730248,"duration":2635},"env-54b19793be7f700953d9cd42":{"start":1792146723499,"stop":1792146726159,"duration":2660},"env-097587f26ef279dc7fc132f2":{"start":1792146645432,"stop":1792146698114,"duration":52682},"env-48f38ef271d2caa6c4f9dd8c":{"start":1792146828562,"stop":1792146891486,"duration":62924},"env-2bc436f5ec3ed1ab46425c12":{"start":1792146561565,"stop":1792146572876,"duration":11311},"env-366b20f335556d0ee9a474cb":{"start":1792146587114,"stop":1792146592979,"duration":5865},"env-33b28d4ea7d29608dce197d0":{"start":1792146847087,"stop":1792146863623,"duration":16536},"env-b45ff4a382fb51f2ab42ce4c":{"start":1792146561914,"stop":1792146564322,"duration":2408}},"layout":"base","allureVersion":"3.20.1","sections":["charts","timeline"],"defaultSection":""}
+    </script>
+</head>
+<body>
+    
+    <div id="allure-app-loader" class="allure-app-loader" role="status" aria-label="Loading report" aria-live="polite">
+      <svg class="allure-app-loader__logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M22.232 4.662a3.6 3.6 0 0 1 5.09.035c2.855 2.894 4.662 6.885 4.662 11.295a3.6 3.6 0 0 1-7.2 0c0-2.406-.981-4.61-2.587-6.24a3.6 3.6 0 0 1 .035-5.09Z" fill="url(#allure-loader-a)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12.392 3.6a3.6 3.6 0 0 1 3.6-3.6c4.41 0 8.401 1.807 11.296 4.662a3.6 3.6 0 1 1-5.056 5.126C20.602 8.18 18.398 7.2 15.992 7.2a3.6 3.6 0 0 1-3.6-3.6Z" fill="url(#allure-loader-b)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0 15.992C0 7.157 7.157 0 15.992 0a3.6 3.6 0 0 1 0 7.2A8.789 8.789 0 0 0 7.2 15.992c0 2.406.981 4.61 2.588 6.24a3.6 3.6 0 0 1-5.126 5.056C1.807 24.393 0 20.402 0 15.992Z" fill="url(#allure-loader-c)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.661 22.232a3.6 3.6 0 0 1 5.091-.035c1.63 1.606 3.834 2.587 6.24 2.587a3.6 3.6 0 0 1 0 7.2c-4.41 0-8.401-1.807-11.295-4.661a3.6 3.6 0 0 1-.036-5.091Z" fill="url(#allure-loader-d)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M28.384 12.392a3.6 3.6 0 0 1 3.6 3.6c0 8.835-7.157 15.992-15.992 15.992a3.6 3.6 0 0 1 0-7.2 8.789 8.789 0 0 0 8.792-8.792 3.6 3.6 0 0 1 3.6-3.6Z" fill="url(#allure-loader-e)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M28.385 12.392a3.6 3.6 0 0 1 3.6 3.6v12.392a3.6 3.6 0 0 1-7.2 0V15.992a3.6 3.6 0 0 1 3.6-3.6Z" fill="url(#allure-loader-f)"/><g clip-path="url(#allure-loader-g)"><path fill-rule="evenodd" clip-rule="evenodd" d="M22.232 4.662a3.6 3.6 0 0 1 5.091.035c2.855 2.894 4.662 6.885 4.662 11.295a3.6 3.6 0 0 1-7.2 0c0-2.406-.982-4.61-2.588-6.24a3.6 3.6 0 0 1 .035-5.09Z" fill="url(#allure-loader-h)"/></g><defs><linearGradient id="allure-loader-a" x1="26.4" y1="9.6" x2="28.8" y2="15" gradientUnits="userSpaceOnUse"><stop stop-color="#7E22CE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient><linearGradient id="allure-loader-b" x1="26.8" y1="9.4" x2="17.8" y2="3.6" gradientUnits="userSpaceOnUse"><stop stop-color="#EF4444"/><stop offset="1" stop-color="#DC2626"/></linearGradient><linearGradient id="allure-loader-c" x1="3.6" y1="14" x2="5.4" y2="24.8" gradientUnits="userSpaceOnUse"><stop stop-color="#22C55E"/><stop offset="1" stop-color="#15803D"/></linearGradient><linearGradient id="allure-loader-d" x1="4.8" y1="22.2" x2="14.4" y2="29.2" gradientUnits="userSpaceOnUse"><stop stop-color="#94A3B8"/><stop offset=".958" stop-color="#64748B"/><stop offset="1" stop-color="#64748B"/></linearGradient><linearGradient id="allure-loader-e" x1="28.4" y1="22.173" x2="22.188" y2="28.384" gradientUnits="userSpaceOnUse"><stop stop-color="#D97706"/><stop offset="1" stop-color="#FBBF24"/></linearGradient><linearGradient id="allure-loader-f" x1="29.2" y1="54.4" x2="30.626" y2="54.256" gradientUnits="userSpaceOnUse"><stop stop-color="#FBBF24"/><stop offset="1" stop-color="#FBBF24"/></linearGradient><linearGradient id="allure-loader-h" x1="26.4" y1="9.6" x2="28.8" y2="15" gradientUnits="userSpaceOnUse"><stop stop-color="#7E22CE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient><clipPath id="allure-loader-g"><path fill="#fff" transform="translate(24.8 12)" d="M0 0h7.2v8H0z"/></clipPath></defs></svg>
+      <div class="allure-app-loader__spinner" aria-hidden="true"></div>
+    </div>
+  
+    <div id="app"></div>
+    
+    <script>
+      const { origin, pathname } = window.location; 
+      const url = new URL(pathname, origin);
+      const baseEl = document.createElement("base");
+      
+      baseEl.href = url.toString();
+      
+      window.document.head.appendChild(baseEl);
+    </script>
+  
+    <script>
+      window.allure = window.allure || {};
+    </script>
+    <script   src="app-37f09cbd4e17b2e88575.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNDJ3J7WT0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LNDJ3J7WT0', {
+          "report": "awesome",
+          "allureVersion": "3.20.1",
+          "reportUuid": "f315a23a-8eb9-430e-84d7-8463eb92121e",
+          "single_file": "false"
+        });
+    </script>
+    
+      <script async>
+        window.allureReportDataReady = true;
+      </script>
+    
+</body>
+</html>
