@@ -1,0 +1,1 @@
+{"bridgePid":4386,"stderr":"","extension":"official 0.4.0","executable":"/home/runner/work/_temp/free-browser-cache/chromium-146.0.7680.177.5/chrome"}
