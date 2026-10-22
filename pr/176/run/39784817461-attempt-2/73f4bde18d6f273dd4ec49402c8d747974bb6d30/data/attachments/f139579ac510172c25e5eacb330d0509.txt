@@ -1,0 +1,1 @@
+[cloakbrowser] Incomplete Windows font set — installing the full set is strongly advised for best results when spoofing Windows on Linux. https://github.com/CloakHQ/cloakbrowser#font-setup-on-linux (silence: CLOAKBROWSER_SUPPRESS_FONT_WARNING=1)

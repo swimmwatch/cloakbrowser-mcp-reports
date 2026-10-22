@@ -1,0 +1,1 @@
+{"bridgePid":3733,"stderr":"fatal: PLAYWRIGHT_MCP_EXTENSION_TOKEN must be a non-empty process environment value in extension mode\n","extension":"official 0.4.0","executable":"/home/runner/work/_temp/free-browser-cache/chromium-146.0.7680.177.5/chrome"}
