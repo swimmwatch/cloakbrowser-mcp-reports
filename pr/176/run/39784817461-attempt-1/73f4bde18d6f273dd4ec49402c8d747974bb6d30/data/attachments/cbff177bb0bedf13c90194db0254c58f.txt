@@ -1,0 +1,1 @@
+{"failure":"MCP error -32000: Connection closed","bridgePid":5852,"browserPids":[],"stderr":"fatal: Persistent profile is already active: C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cloak-profile-lock-8RvHdY (pid=6700, createdAt=2026-10-22T13:20:11.070Z)\n"}
